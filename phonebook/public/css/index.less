@@ -1,0 +1,77 @@
+* {
+    border-radius: 0 !important;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
+.index_header {
+    background-color: #F3726D;
+}
+
+.top_nav {
+    background-color: #FFF;
+    box-shadow: 2px 2px 13px 1px #999;
+}
+
+.main_list {
+    .article_card {
+        background-color: #FFF;
+        padding: 15px;
+        box-sizing: border-box;
+        margin-bottom: 30px;
+        box-shadow: 2px 2px 13px 1px #999;
+        .head {
+            text-align: center;
+            .title {}
+        }
+        .info {
+            text-align: center;
+            padding: 8px;
+            &>span {
+                display: inline;
+            }
+            .author:after {
+                content: ":"
+            }
+        }
+        .photo {
+            &>img {
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+        .description {
+            font-family: "微软雅黑";
+            text-indent: 2em;
+            letter-spacing: 0.15em;
+            padding: 15px 0;
+            font-size: 1.2em;
+        }
+    }
+}
+
+.card_panel {
+    background-color:#FFF;
+    overflow: hidden;
+    padding:15px 30px;
+    margin-bottom: 30px;
+    box-shadow: 2px 2px 13px 1px #999;
+    .card_panel_head {
+        .titleLine {
+            border: none;
+            height: 1px;
+            width: 100%;
+            background-color: #EBEBEB;
+            .rad_line {
+                border: none;
+                height: 1px;
+                width: 30%;
+                background-color: #F4645F;
+            }
+        }
+    }
+    .card_panel_body {}
+}
